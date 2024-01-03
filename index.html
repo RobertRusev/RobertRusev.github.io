@@ -81,7 +81,10 @@
             display: none;
         }
     }
-
+    .masthead {
+            min-height: 100vh; /* This ensures that the masthead is at least the height of the viewport */
+            position: relative; /* This can help contain absolutely positioned children if needed */
+        }
   </style>
 </head>
 <body id="page-top">
@@ -117,7 +120,7 @@
 
 <header class="masthead">
     <div id="particles-js">
-        <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;" width="1350" height="800">Your browser does not support the canvas element.</canvas>
+        <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;"></canvas>
     </div>
     <div class="textlanding">
         <p style="display:inline; font-size: 35px; margin-left: -15px;">ROBERT</p> <!-- Adjust margin-left value as needed -->
@@ -148,8 +151,8 @@
     </div>
 </header>
 
-<script async src="./RR_site_files/particles.js"></script>
-<script async src="./RR_site_files/appHome.js"></script>
+<script src="./RR_site_files/particles.js"></script>
+<script src="./RR_site_files/appHome.js"></script>
 
 
 
