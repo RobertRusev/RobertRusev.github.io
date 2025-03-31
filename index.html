@@ -95,7 +95,13 @@
           background-color: black !important; /* Black background on hover */
           color: white !important; /* White text on hover */
           border-color: black !important; /* Keep black border */
-      }   
+      }
+    .animated-logo svg path {
+        stroke: black;
+        fill: none;
+        stroke-width: 2;
+      }
+           
   </style> 
 </head>
 <body id="page-top">
@@ -127,43 +133,190 @@
 
 
 <!-- =======================  LANDING SECTION ======================= -->
-
-
 <header class="masthead">
-    <div id="particles-js">
-        <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;"></canvas>
+  <div id="particles-js">
+    <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;"></canvas>
+  </div>
+  <div class="textlanding">
+    <p style="display:inline; font-size: 35px; margin-left: -15px;">ROBERT</p>
+    
+    <!-- Replace the static logo image with the animated SVG logo -->
+    <div class="animated-logo" style="display:inline-block; vertical-align: middle;">
+      <!-- Your working animated SVG -->
+      <svg width="90px" height="90px" viewBox="0 0 385 389" xmlns="http://www.w3.org/2000/svg">
+        <g id="circle-zero-ring">
+  <path fill="black" fill-rule="evenodd" opacity="0" d=" 
+    M173.107 2.07501
+      C115.74 8.53401 62.883 40.303 31.881 86.955
+      C16.195 110.56 6.54799 135.802 2.43799 164
+      C0.105993 180.003 0.860993 215.424 3.88999 232.138
+      C13.333 284.23 41.412 327.81 84 356.474
+      C95.079 363.93 115.903 374.008 128.5 378.009
+      C172.68 392.043 214.589 392.456 254.448 379.252
+      C267.963 374.775 289.893 363.989 300.311 356.695
+      C343.806 326.242 373.67 277.387 381.426 224
+      C390.038 164.723 375.22 108.463 339.905 66.353
+      C312.774 34.001 273.15 11.676 229 3.86501
+      C215.688 1.51001 186.444 0.574012 173.107 2.07501Z
+
+    M170.728 36.468
+      C116.94 44.183 70.022 83.546 49.707 138
+      C21.649 213.207 50.602 296.763 118.484 336.486
+      C133.717 345.4 146.602 350.363 164.5 354.209
+      C178.268 357.168 206.824 357.377 221.5 354.625
+      C271.619 345.229 314.152 309.566 333.147 261.012
+      C342.354 237.476 345.549 218.018 344.693 190.687
+      C343.828 163.061 339.25 144.441 327.437 120.5
+      C305.964 76.981 268.112 47.023 223.036 37.87
+      C210.232 35.271 183.983 34.567 170.728 36.468Z
+  " />
+</g>
+
+        <!-- Outer circle only -->
+  <g id="circle">
+    <path d="
+      M173.107 2.07501
+        C115.74 8.53401 62.883 40.303 31.881 86.955
+        C16.195 110.56 6.54799 135.802 2.43799 164
+        C0.105993 180.003 0.860993 215.424 3.88999 232.138
+        C13.333 284.23 41.412 327.81 84 356.474
+        C95.079 363.93 115.903 374.008 128.5 378.009
+        C172.68 392.043 214.589 392.456 254.448 379.252
+        C267.963 374.775 289.893 363.989 300.311 356.695
+        C343.806 326.242 373.67 277.387 381.426 224
+        C390.038 164.723 375.22 108.463 339.905 66.353
+        C312.774 34.001 273.15 11.676 229 3.86501
+        C215.688 1.51001 186.444 0.574012 173.107 2.07501Z
+    " />
+  </g>
+
+  <!-- The digit "0" shape -->
+  <g id="zero">
+    <path d="
+      M170.728 36.468
+        C116.94 44.183 70.022 83.546 49.707 138
+        C21.649 213.207 50.602 296.763 118.484 336.486
+        C133.717 345.4 146.602 350.363 164.5 354.209
+        C178.268 357.168 206.824 357.377 221.5 354.625
+        C271.619 345.229 314.152 309.566 333.147 261.012
+        C342.354 237.476 345.549 218.018 344.693 190.687
+        C343.828 163.061 339.25 144.441 327.437 120.5
+        C305.964 76.981 268.112 47.023 223.036 37.87
+        C210.232 35.271 183.983 34.567 170.728 36.468Z
+    " />
+  </g>
+
+  <!-- The digit "1" -->
+  <g id="one">
+    <path d="
+      M118.355 110.922L86.355 132.72L86.079 147.86
+      C85.927 156.187 86.001 163 86.243 163
+      C86.485 163 100.314 153.709 116.974 142.353
+      C133.634 130.997 148.073 121.494 149.06 121.236
+      C150.778 120.787 150.855 125.033 150.855 219.883V319H164.855H178.855V204V89
+      L164.605 89.063L150.355 89.125L118.355 110.922Z
+    " />
+  </g>
+
+  <!-- The digit "2" -->
+  <g id="two">
+    <path d="
+      M222.5 56.2492
+        C214.566 57.0792 198.461 60.8642 190.315 63.8112
+        L182 66.8202V79.7262
+        C182 86.8242 182.279 92.6312 182.619 92.6312
+        C182.96 92.6312 185.772 91.1132 188.869 89.2592
+        C201.074 81.9502 215.227 77.6642 229.653 76.9092
+        C242.809 76.2202 251.35 78.5462 258.377 84.7312
+        C264.868 90.4462 267.231 95.4532 267.782 104.664
+        C268.577 117.975 264.901 128.962 255.411 141.631
+        C247.473 152.229 219.921 179.587 198.75 197.894
+        L179 214.971V228.301V241.631H239.5H300V231.131V220.631H251.471H202.943
+        L220.698 205.381
+        C242.463 186.686 266.074 163.835 274.683 153.131
+        C283.356 142.348 289.654 129.517 291.618 118.631
+        C297.111 88.1732 283.245 65.5802 254.503 58.1602
+        C248.428 56.5922 229.83 55.4812 222.5 56.2492Z
+    " />
+  </g>
+      </svg>
     </div>
-    <div class="textlanding">
-        <p style="display:inline; font-size: 35px; margin-left: -15px;">ROBERT</p> <!-- Adjust margin-left value as needed -->
-        <img width="90px" style="display:inline; margin-bottom: 20px; margin-right: 10px; margin-left: 10px;" src="./RR_site_files/landing_page_logo.png" alt="Robert Rusev Logo"> <!-- Adjust margin-left value as needed -->
-        <p style="display:inline; font-size: 35px;">RUSEV</p>
-        <hr style="width: 100px; height: 1px; border:none;color:#333;background-color:#333;">
-        <br>
-        <ul class="list-inline social-buttons">
-            <li class="list-inline-item">
-                <a href="https://github.com/RobertRusev" title="Visit Robert's GitHub profile">
-                    <i class="fab fa-github" style="color: white"></i>
-                </a>
-            </li>
-            <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/robert-rusev-bb50b8131/" title="Visit Robert's LinkedIn profile">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-            </li>
-        </ul>
-        <br><br>
-        <p><strong>Welcome to my data science portfolio! </strong><br>Where insights transform into opportunities.</p>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#contact" aria-label="Contact Me">Contact</a>
-    </div>
-    <div class="arrowlanding">
-        <a class="js-scroll-trigger" href="#about-me" aria-label="Scroll to About Me section">
-            <p style="font-size: 80px; color: black ;">﹀</p>
+    
+    
+    <p style="display:inline; font-size: 35px;">RUSEV</p>
+    <hr style="width: 100px; height: 1px; border:none; background-color:#333;">
+    <br>
+    <ul class="list-inline social-buttons">
+      <li class="list-inline-item">
+        <a href="https://github.com/RobertRusev" title="Visit Robert's GitHub profile">
+          <i class="fab fa-github" style="color: white"></i>
         </a>
-    </div>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://www.linkedin.com/in/robert-rusev-bb50b8131/" title="Visit Robert's LinkedIn profile">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+    </ul>
+    <br><br>
+    <p><strong>Welcome to my data science portfolio! </strong><br>Where insights transform into opportunities.</p>
+    <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#contact" aria-label="Contact Me">Contact</a>
+  </div>
+  <div class="arrowlanding">
+    <a class="js-scroll-trigger" href="#about-me" aria-label="Scroll to About Me section">
+      <p style="font-size: 80px; color: black;">﹀</p>
+    </a>
+  </div>
 </header>
 
+<!-- Include GSAP (make sure this script tag is added before your custom animation script) -->
+<script src="https://unpkg.com/gsap@3"></script>
+<script>
+  // Animation setup
+  const paths = document.querySelectorAll("svg .animated-logo path, #circle path, #zero path, #one path, #two path");
+  paths.forEach(path => {
+    const length = path.getTotalLength();
+    path.style.strokeDasharray = length;
+    path.style.strokeDashoffset = length;
+    path.style.fill = 'none'; // Reset fill just in case
+    path.style.stroke = 'black';
+    path.style.strokeWidth = 2;
+  });
+
+  gsap.timeline()
+    .to("#circle path", {
+      strokeDashoffset: 0,
+      duration: 1.2,
+      ease: "power2.out"
+    })
+    .to("#zero path", {
+      strokeDashoffset: 0,
+      duration: 1.2,
+      ease: "power2.out"
+    }, "+=0.2")
+    .to("#one path", {
+      strokeDashoffset: 0,
+      duration: 0.8,
+      ease: "power2.out"
+    }, "+=0.2")
+    .to("#two path", {
+      strokeDashoffset: 0,
+      duration: 1.0,
+      ease: "power2.out"
+    }, "+=0.2")
+    .to(["#circle-zero-ring path","#one path", "#two path"], {
+      opacity : 1,
+      fill: "black",
+      duration: 0.5,
+      ease: "power2.out"
+    }, "+=0.3");
+</script>
+
+
+<!-- Existing particle scripts -->
 <script src="./RR_site_files/particles.js"></script>
 <script src="./RR_site_files/appHome.js"></script>
+
 
 
 
